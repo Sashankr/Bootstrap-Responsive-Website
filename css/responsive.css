@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px)
+{
+	
+
+	#banner_info h2
+	{
+		font-size: 44px;
+		line-height: unset;
+	}
+
+	
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 10px 0;
+	}
+	
+	.navbar-nav #search_icon {
+		margin-top: 15px;
+		margin-left: 0px;
+    color: #506a85;
+    cursor: pointer;
+}
+.carousel-control-prev {
+	left: 48px;
+}
+.carousel-control-next {
+	right: 48px;
+	z-index: 1;
+}
+
+#work_info {
+	height: 440px;
+}
+
+}
